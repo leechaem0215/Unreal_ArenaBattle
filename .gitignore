@@ -1,0 +1,26 @@
+# Unreal Engine에서 다시 생성되는 폴더
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio 생성 파일
+.vs/
+*.sln
+*.slnx
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+
+# 로그와 임시 파일
+*.log
+*.tmp
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
