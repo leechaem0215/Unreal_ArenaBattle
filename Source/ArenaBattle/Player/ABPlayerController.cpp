@@ -3,3 +3,11 @@
 
 #include "Player/ABPlayerController.h"
 
+void AABPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// 입력 설정.
+	FInputModeGameOnly GameOnlyInputMode;
+	SetInputMode(GameOnlyInputMode);
+}
